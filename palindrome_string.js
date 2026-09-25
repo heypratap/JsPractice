@@ -1,0 +1,11 @@
+//Write a function that checks whether a string reads the same forward and backward.
+
+function isPalindrome (str){
+    let reverse = ''
+    for(let i = str.length-1; i >= 0; i--){
+        reverse +=str[i]
+    }
+   return reverse === str
+    
+}
+console.log(isPalindrome("pratarp"))
